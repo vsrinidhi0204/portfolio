@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    background-color: #dfa7d0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #4cf569;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+  }
+
+  nav {
+    background-color: #85e947;
+    position: fixed; /* Fixed position at the top */
+    width: 100%; /* Full width */
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  nav li {
+    float: left;
+  }
+
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .section-card {
+    background-color: #95c2e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto; /* Center the section card horizontally */
+    padding: 40px; /* Reduced padding for a smaller card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%; /* Reduced width for a smaller card */
+    max-width: 800px; /* Limit maximum width */
+    height: 700px; /* Set a fixed height for all section cards */
+    overflow: auto; /* Add overflow for content that exceeds the card's height */
+  }
+
+  .section-card h1 {
+    font-size: 24px;
+  }
+
+  .section-card p {
+    font-size: 16px;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  #img1
+  {
+    opacity: 0.7;
+  }
+  #img2
+  {
+    position:relative;
+    left:30px;
+    width:300px;
+    height:200px;
+    opacity: 0.7;
+  }
+  #img3
+  {
+    position:relative;
+    width:200px;
+    height:100px;
+    opacity: 0.7;
+  }
+  #img4
+  {
+    position:relative;
+    left:30px;
+    width:200px;
+    height:200px;
+    opacity: 0.7;
+  }
+  #img6
+  {
+    position:relative;
+    left:80px;
+    width:250px;
+    height:150px;
+    opacity: 0.8;
+  }
+  #img5
+  {
+    position:relative;
+    left:30px;
+    width:250px;
+    height:100px;
+    opacity: 0.8;
+  }
+  #img7
+  {
+    position:relative;
+    left:80px;
+    width:250px;
+    height:150px;
+    opacity: 0.8;
+  }
+
+  @keyframes textAnimation {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+    color: rgb(207, 53, 135);
+  }
+  75% {
+    color: purple;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+    color: orange;
+  }
+}
+
+#section1 h1 {
+  font-size: 100px;
+  animation: textAnimation 4s linear infinite;
+}
+</style>
+<title>portfolio</title>
+</head>
+<body>
+<header><h1></h1></header>
+
+<nav>
+    <ul>
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Education</a></li>
+        <li><a href="#section3">Skills</a></li>
+        <li><a href="#section4">Projects</a></li>
+        <li><a href="#section5">More</a></li>
+    </ul>
+</nav>
+
+<section id="section1" class="section-card" >
+    <center>
+    <div style="">
+        <br><br>
+        <h1>Hello,</h1>
+        <h1>I am Srinidhi</h1>
+    </div>
+</center>
+</section>
+
+<section id="section2" class="section-card">
+    <center>
+    <h1>EDUCATION</h1></center>
+    <h1>Schooling</h1>
+    <p>Narayana School </p>
+    <h1>Inter</h1>
+    <p>Sri Chaithanya Junior college</p>
+    <h1>Under Graduation</h1>
+    <p>Chaithanya Bharati Institute of technology</p>
+    <img id="img5" src="https://tse2.mm.bing.net/th?id=OIP.Xegmg2HZxaAshNjcQVvFwwHaHa&pid=Api&P=0&h=180">
+    <img id="img7" src="https://tse4.mm.bing.net/th?id=OIP.u_O_9hMW0G4RzNlrjmgD7AHaE7&pid=Api&P=0&h=180">
+</section>
+
+<section id="section3" class="section-card">
+    <center>
+    <h1>SKILLS</h1></center>
+    <h3>C</h3>
+    <h3>Python</h3>
+    <h3>Java</h3>
+    <h3>HTML</h3>
+    <h3>CSS</h3>
+    <h3>Javascript</h3>
+    <img id="img3" src="https://tse2.mm.bing.net/th?id=OIP.0D9zGIQXQEIZFYD9tpRXgQHaD1&pid=Api&P=0&h=180">
+    <img id="img4" src="https://i.pinimg.com/originals/e0/bc/9d/e0bc9ddc19834caa1dbe69d5653fe261.png">
+    <img id="img6" src="https://tse4.mm.bing.net/th?id=OIP.Dz89qQas-BRGK41vnKwBKwAAAA&pid=Api&P=0&h=180">
+</section>
+
+<section id="section4" class="section-card">
+    <center>
+    <h1>PROJECTS</h1></center>
+    <dt><h1>Quiz with performance analysis</h1></dt>
+    <dd><p>This is a simple quiz which also analyzes the performace of the user.</p>
+        <p>Made using python and its libraries like tkinter,mathplot</p>
+        <p>The user data is stored in csv files and then analysed</p>
+    </dd>
+    <dt><h1>Automatic plant watering system</h1></dt>
+    <dd>
+        <p>made using Aurdino UNO</p>
+        <p>using sensors detects low water level in the soil and water plants automatically</p>
+    </dd>
+    <br><br>
+    <img  id="img1" src="https://tse4.mm.bing.net/th?id=OIP.FgyYfFj19LjrU5CR6oplFAEsCd&pid=Api&P=0&h=180">
+    <img id="img2" src="https://hackster.imgix.net/uploads/attachments/479029/img_0227_hFmL3SL1kt.jpg?auto=compress&w=1600&h=1200&fit=min&fm=jpg">
+</section>
+
+<section id="section5" class="section-card">
+    <h1>Extra Curricular Activities</h1>
+    <h3>Volunteered in college technical fest</h3>
+    <br>
+    <h1>Soft Skills</h1>
+    <h3>Good Communication Skills</h3>
+    <h3>LeaderShip</h3>
+    <h3>Team Work</h3>
+</section>
+
+<footer>
+    <p>Contact</p>
+    <ul>
+        <li><a href="#hackerrank">Hackerrank</a></li>
+        <li><a href="#leetcode">Leetcode</a></li>
+        <li><a href="https://www.linkedin.com/in/srinidhi-vanipenta-36b998270/">LinkedIn</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>
